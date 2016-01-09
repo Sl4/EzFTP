@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4561FFC41C415260003FCEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561FFC31C415260003FCEDB /* AppDelegate.swift */; };
+		4561FFC61C415260003FCEDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561FFC51C415260003FCEDB /* ViewController.swift */; };
+		4561FFC81C415260003FCEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4561FFC71C415260003FCEDB /* Assets.xcassets */; };
+		4561FFCB1C415260003FCEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4561FFC91C415260003FCEDB /* Main.storyboard */; };
+		4561FFD61C415260003FCEDB /* EzFTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561FFD51C415260003FCEDB /* EzFTPTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4561FFD21C415260003FCEDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4561FFB81C415260003FCEDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4561FFBF1C415260003FCEDB;
+			remoteInfo = EzFTP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4561FFC01C415260003FCEDB /* EzFTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzFTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561FFC31C415260003FCEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4561FFC51C415260003FCEDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4561FFC71C415260003FCEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4561FFCA1C415260003FCEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4561FFCC1C415260003FCEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4561FFD11C415260003FCEDB /* EzFTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzFTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561FFD51C415260003FCEDB /* EzFTPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzFTPTests.swift; sourceTree = "<group>"; };
+		4561FFD71C415260003FCEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4561FFBD1C415260003FCEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561FFCE1C415260003FCEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4561FFB71C415260003FCEDB = {
+			isa = PBXGroup;
+			children = (
+				4561FFC21C415260003FCEDB /* EzFTP */,
+				4561FFD41C415260003FCEDB /* EzFTPTests */,
+				4561FFC11C415260003FCEDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4561FFC11C415260003FCEDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4561FFC01C415260003FCEDB /* EzFTP.app */,
+				4561FFD11C415260003FCEDB /* EzFTPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4561FFC21C415260003FCEDB /* EzFTP */ = {
+			isa = PBXGroup;
+			children = (
+				4561FFC31C415260003FCEDB /* AppDelegate.swift */,
+				4561FFC51C415260003FCEDB /* ViewController.swift */,
+				4561FFC71C415260003FCEDB /* Assets.xcassets */,
+				4561FFC91C415260003FCEDB /* Main.storyboard */,
+				4561FFCC1C415260003FCEDB /* Info.plist */,
+			);
+			path = EzFTP;
+			sourceTree = "<group>";
+		};
+		4561FFD41C415260003FCEDB /* EzFTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				4561FFD51C415260003FCEDB /* EzFTPTests.swift */,
+				4561FFD71C415260003FCEDB /* Info.plist */,
+			);
+			path = EzFTPTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4561FFBF1C415260003FCEDB /* EzFTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4561FFDA1C415260003FCEDB /* Build configuration list for PBXNativeTarget "EzFTP" */;
+			buildPhases = (
+				4561FFBC1C415260003FCEDB /* Sources */,
+				4561FFBD1C415260003FCEDB /* Frameworks */,
+				4561FFBE1C415260003FCEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzFTP;
+			productName = EzFTP;
+			productReference = 4561FFC01C415260003FCEDB /* EzFTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4561FFD01C415260003FCEDB /* EzFTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4561FFDD1C415260003FCEDB /* Build configuration list for PBXNativeTarget "EzFTPTests" */;
+			buildPhases = (
+				4561FFCD1C415260003FCEDB /* Sources */,
+				4561FFCE1C415260003FCEDB /* Frameworks */,
+				4561FFCF1C415260003FCEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4561FFD31C415260003FCEDB /* PBXTargetDependency */,
+			);
+			name = EzFTPTests;
+			productName = EzFTPTests;
+			productReference = 4561FFD11C415260003FCEDB /* EzFTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4561FFB81C415260003FCEDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sl4;
+				TargetAttributes = {
+					4561FFBF1C415260003FCEDB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4561FFD01C415260003FCEDB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4561FFBF1C415260003FCEDB;
+					};
+				};
+			};
+			buildConfigurationList = 4561FFBB1C415260003FCEDB /* Build configuration list for PBXProject "EzFTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4561FFB71C415260003FCEDB;
+			productRefGroup = 4561FFC11C415260003FCEDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4561FFBF1C415260003FCEDB /* EzFTP */,
+				4561FFD01C415260003FCEDB /* EzFTPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4561FFBE1C415260003FCEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561FFC81C415260003FCEDB /* Assets.xcassets in Resources */,
+				4561FFCB1C415260003FCEDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561FFCF1C415260003FCEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4561FFBC1C415260003FCEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561FFC61C415260003FCEDB /* ViewController.swift in Sources */,
+				4561FFC41C415260003FCEDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561FFCD1C415260003FCEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561FFD61C415260003FCEDB /* EzFTPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4561FFD31C415260003FCEDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4561FFBF1C415260003FCEDB /* EzFTP */;
+			targetProxy = 4561FFD21C415260003FCEDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4561FFC91C415260003FCEDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4561FFCA1C415260003FCEDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4561FFD81C415260003FCEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4561FFD91C415260003FCEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4561FFDB1C415260003FCEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EzFTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.Sl4.EzFTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4561FFDC1C415260003FCEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EzFTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.Sl4.EzFTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4561FFDE1C415260003FCEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EzFTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.Sl4.EzFTPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzFTP.app/Contents/MacOS/EzFTP";
+			};
+			name = Debug;
+		};
+		4561FFDF1C415260003FCEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EzFTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.Sl4.EzFTPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzFTP.app/Contents/MacOS/EzFTP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4561FFBB1C415260003FCEDB /* Build configuration list for PBXProject "EzFTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561FFD81C415260003FCEDB /* Debug */,
+				4561FFD91C415260003FCEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4561FFDA1C415260003FCEDB /* Build configuration list for PBXNativeTarget "EzFTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561FFDB1C415260003FCEDB /* Debug */,
+				4561FFDC1C415260003FCEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4561FFDD1C415260003FCEDB /* Build configuration list for PBXNativeTarget "EzFTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561FFDE1C415260003FCEDB /* Debug */,
+				4561FFDF1C415260003FCEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4561FFB81C415260003FCEDB /* Project object */;
+}
